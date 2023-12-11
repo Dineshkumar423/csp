@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>helping people</title> 
+  <style>
+    
+
+    body {
+      margin: 0;
+      box-sizing: border-box;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color:white;
+    }
+
+    .header .logo {
+      font-size: 25px;
+      font-family: roboto;
+      color: #000;
+      text-decoration: none;
+      margin-left: 30px;
+      font-weight:bold;
+    }
+a
+    .nav-items {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color:white;
+      margin-right: 20px;
+    }
+
+    .nav-items a {
+      text-decoration: none;
+      color: #000;
+      padding: 35px 20px;
+    }
+    .intro {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 520px;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://th.bing.com/th/id/OIP.tvTiOaY2ZKeBlQ0pAS7NEAHaEK?w=309&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .intro h1 {
+      font-family: sans-serif;
+      font-size: 60px;
+      color: #fff;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin: 0;
+    }
+
+    .intro p {
+      font-size: 20px;
+      color: #d1d1d1;
+      text-transform: uppercase;
+      margin: 20px 0;
+    }
+
+    .intro button {
+      background-color: #5edaf0;
+      color: #000;
+      padding: 10px 25px;
+      border: none;
+      border-radius: 5px;
+      font-size: 20px;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4)
+    }
+    .footer-button {
+      position:absolute;
+      
+      -ms-transform: translate(-50%);
+      background-color: #5edaf0;
+      color: #000;
+      padding: 10px 25px;
+      border: none;
+      border-radius: 5px;
+      font-size: 20px;
+      margin:200px;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4)
+    }
+
+
+    .achievements {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 40px 80px;
+    }
+
+    .achievements .work {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background-image: ("https://th.bing.com/th/id/OIP.tvTiOaY2ZKeBlQ0pAS7NEAHaEK?w=309&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7.png");
+      align-items: center;
+      padding: 0 40px;
+    }
+
+    .achievements .work i {
+      width: fit-content;
+      font-size: 50px;
+      color: #333333;
+      border-radius: 50%;
+      border: 2px solid #333333;
+      padding: 12px;
+    }
+
+    .achievements .work .work-heading {
+      font-size: 20px;
+      color: #333333;
+      margin: 10px 0;
+    }
+
+
+    .achievements .work .work-text {
+      font-size: 15px;
+      color: #585858;
+      margin: 10px 0;
+    }
+
+    .about-me {
+      display: flex;
+      justify-content: center;
+      align-items: left;
+      padding: 40px 80px;
+      border-top: 2px solid #eeeeee;
+    }
+
+    .about-me img {
+      height: 250px;
+      width: 1000;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .about-me-text h2 {
+      font-size: 30px;
+      color: #333333;
+      text-transform: uppercase;
+      margin: 0;
+
+    }
+
+    .about-me-text p {
+      font-size: 15px;
+      color: #585858;
+      margin: 10px 0;
+    }
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #302f49;
+      padding: 40px 80px;
+    }
+
+    .footer .copy {
+      color: #fff;
+    }
+
+    .bottom-links {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 40px 0;
+    }
+
+    .bottom-links .links {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0 40px;
+    }
+
+    .bottom-links .links p3{
+      font-size: 20px;
+      color: #fff;
+      text-transform: uppercase;
+      margin: 10px 0;
+    }
+
+    .bottom-links .links a {
+      text-decoration: none;
+      color: #a1a1a1;
+      padding: 10px 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="header">
+    <a href="#" class="logo">Helping Hands</a>
+    <nav class="nav-items">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+      <a href="pay.html">Donate</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </header>
+  <main>
+    <div class="intro">
+      <h1>HELP PEOPLE</h1>
+      <a href="pay.html">
+      <button>Donate</button>
+      </a>
+    </div>
+    <div class="achievements">
+      <div class="work">
+       
+        
+        <img src="https://th.bing.com/th/id/R.42bd710bf29c93b287d523b40cd9817b?rik=PXZTXee0TA%2bn8A&riu=http%3a%2f%2ffreevector.co%2fwp-content%2fuploads%2f2013%2f06%2f66185-make-a-donation.png&ehk=55pI3JgSfg1ZWfvV0bpu%2bJ9HVB1aMYjd9lcA3zgAxno%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1.png" alt="vicks" width="70" height="70">
+        <p class="work-heading">Give Donation </p>      
+      </div>
+      <div class="work">
+
+        
+        <img src="https://th.bing.com/th/id/OIP.I0Wa1OzK3tX0_Q6yecfVpwHaHa?w=193&h=193&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="vicks" width="100" height="70"> 
+        <p class="work-heading">Education</p> 
+      </div>
+      <div class="work">
+
+        
+        <img src="https://th.bing.com/th/id/OIP.0R7E3-cRY34Av1A1iwJgjQHaH_?w=174&h=188&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="vicks" width="70" height="70"> 
+        <p class="work-heading">Help the Children</p> 
+      </div>
+    </div>
+    <div class="about-me">
+
+      <img src="https://th.bing.com/th/id/OIP.h-EVF13LCmWbTUTLInOTJwHaFj?rs=1&pid=ImgDetMain" alt="me">
+      <button class="footer-button">Donate</button>
+  
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="copy">@2023 Developer</div>
+    <div class="bottom-links">
+      <div class="links">
+        <p3>More Info</p3>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </div>
+      <div class="links">
+        <p3>Social Links</p3>
+        <a>@facebook</a>
+        <a>@twitter</a>
+        <a>@instagram</a>
+
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
